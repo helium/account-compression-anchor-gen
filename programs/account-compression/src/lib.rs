@@ -6,7 +6,7 @@ anchor_gen::generate_cpi_crate!("./idl.json");
 
 declare_id!("cmtDvXumGCrqC1Age74AVPhSRVXJMd8PJS91L8KbNCK");
 
-struct Noop {}
+pub struct Noop {}
 
 impl Owner for Noop {
     fn owner() -> Pubkey {
