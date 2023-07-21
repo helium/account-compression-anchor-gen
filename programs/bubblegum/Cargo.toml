@@ -1,0 +1,21 @@
+[package]
+name = "bubblegum-cpi"
+version = "0.9.2"
+edition = "2021"
+description = "Anchor CPI client for bubblegum program"
+authors = []
+repository = "https://github.com/helium/account-compression-anchor-gen"
+license = "Apache-2.0"
+keywords = ["solana", "anchor", "cpi", "compression"]
+
+[features]
+default = ["cpi"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+
+[dependencies]
+anchor-gen.workspace = true
+anchor-lang.workspace = true
+solana-program.workspace = true
