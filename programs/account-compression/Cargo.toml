@@ -1,3 +1,5 @@
+cargo-features = ["workspace-inheritance"]
+
 [package]
 name = "account-compression-cpi"
 version = "0.1.2"
