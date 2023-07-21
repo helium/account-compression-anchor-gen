@@ -9,9 +9,8 @@ declare_id!("cmtDvXumGCrqC1Age74AVPhSRVXJMd8PJS91L8KbNCK");
 #[derive(Clone)]
 pub struct Noop {}
 
-impl Owner for Noop {
-    fn owner() -> Pubkey {
+impl Id for Noop {
+    fn id() -> Pubkey {
         Pubkey::from_str("noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV").unwrap()
     }
 }
-
