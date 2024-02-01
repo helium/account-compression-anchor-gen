@@ -15,5 +15,5 @@ codegen-units = 1
 
 [workspace.dependencies]
 anchor-gen = { git = "https://github.com/ChewingGlass/anchor-gen.git" }
-anchor-lang = "0.28.0"
-solana-program = "1.16.13"
+anchor-lang = "0.29.0"
+solana-program = "1.17.17"
