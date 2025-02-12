@@ -1,9 +1,10 @@
 use anchor_lang::prelude::*;
+use bubblegum::types::{LeafSchema, Version};
 use solana_program::keccak;
 
-anchor_gen::generate_cpi_crate!("./idl.json");
-
 declare_id!("BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY");
+
+declare_program!(bubblegum);
 
 pub const ASSET_PREFIX: &str = "asset";
 

@@ -18,6 +18,5 @@ no-log-ix-name = []
 cpi = ["no-entrypoint"]
 
 [dependencies]
-anchor-gen.workspace = true
 anchor-lang.workspace = true
 solana-program.workspace = true
